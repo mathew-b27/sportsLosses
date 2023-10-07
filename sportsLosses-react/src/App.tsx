@@ -9,13 +9,18 @@ import "./components/sitestyle.css";
 function App() {
   return (
     <div>
-      <SiteHeader />
-      <FootballHeader />
-      <BaylorGame />
-      <MilitaryBowl />
-      <BasketballHeader />
-      <RoundOneLosses />
+      <h3>
+        <SiteHeader />
+      </h3>
+
+        <FootballHeader />
+        <BaylorGame />
+        <MilitaryBowl />
+        <BasketballHeader />
+        <RoundOneLosses />
     </div>
+
+  
   );
 }
 

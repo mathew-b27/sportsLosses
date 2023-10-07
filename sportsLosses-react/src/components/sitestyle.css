@@ -1,11 +1,11 @@
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 50px;
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 250vh;
+    /* height: 250vh; */
     font-size: small;
     background-color: rgb(58, 69, 69);
 }
