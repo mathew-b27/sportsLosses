@@ -5,6 +5,14 @@ import MilitaryBowl from "./components/sports/football/military_bowl";
 import BasketballHeader from "./components/sports/basketball/BasketballHeader";
 import RoundOneLosses from "./components/sports/basketball/RoundOneLossses";
 import "./components/sitestyle.css";
+import RoundTwoLosses from "./components/sports/basketball/RoundTwoLosses";
+import SoccerHeader from "./components/sports/soccer/SoccerHeader";
+import SoccerRoundOneLosses from "./components/sports/soccer/soccerRoundOneLosses";
+import SoccerRoundTwoLosses from "./components/sports/soccer/soccerRoundTwoLosses";
+import SoccerRoundThreeLosses from "./components/sports/soccer/soccerRoundThreeLosses";
+
+
+
 
 function App() {
   return (
@@ -15,6 +23,11 @@ function App() {
       <MilitaryBowl />
       <BasketballHeader />
       <RoundOneLosses />
+      <RoundTwoLosses />
+      <SoccerHeader />
+      <SoccerRoundOneLosses/>
+      <SoccerRoundTwoLosses/>
+      <SoccerRoundThreeLosses/>
     </div>
   );
 }
