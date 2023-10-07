@@ -9,9 +9,9 @@ import "./components/sitestyle.css";
 function App() {
   return (
     <div>
-      <h3>
+      <h2>
         <SiteHeader />
-      </h3>
+      </h2>
 
         <FootballHeader />
         <BaylorGame />
