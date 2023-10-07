@@ -14,8 +14,8 @@ const img = {
           src={img.imageUrl}
           alt={"Photo of UCF Soccer Logo"}
           style={{
-            width: img.imageSize * 1.4,
-            height: img.imageSize / 1.2,
+            width: img.imageSize *1.35,
+            height: img.imageSize *.85,
           }}
         />
       </>
