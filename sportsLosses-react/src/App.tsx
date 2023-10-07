@@ -1,5 +1,11 @@
+import Josh from "./components/josh";
+
 function App() {
-  return <h1>University of Central Florida</h1>;
+  return (
+    <div>
+      <Josh />
+    </div>
+  );
 }
 
 export default App;
