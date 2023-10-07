@@ -1,8 +1,9 @@
-import FootballHeader from "./components/FootballHeader";
-import BaylorGame from "./components/sportsgames/football/baylor_game";
-import MilitaryBowl from "./components/sportsgames/football/military_bowl";
-import BasketballHeader from "./components/andy";
 import SiteHeader from "./components/SiteHeader";
+import FootballHeader from "./components/sports/football/FootballHeader";
+import BaylorGame from "./components/sports/football/baylor_game";
+import MilitaryBowl from "./components/sports/football/military_bowl";
+import BasketballHeader from "./components/sports/basketball/BasketballHeader";
+import RoundOneLosses from "./components/sports/basketball/RoundOneLossses";
 import "./components/sitestyle.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <BaylorGame />
       <MilitaryBowl />
       <BasketballHeader />
+      <RoundOneLosses />
     </div>
   );
 }
