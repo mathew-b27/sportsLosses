@@ -1,6 +1,7 @@
 import SiteHeader from "./components/SiteHeader";
 import FootballHeader from "./components/sports/football/FootballHeader";
 import BaylorGame from "./components/sports/football/baylor_game";
+import KansasGame from "./components/sports/football/kansas_game";
 import MilitaryBowl from "./components/sports/football/military_bowl";
 import BasketballHeader from "./components/sports/basketball/BasketballHeader";
 import RoundOneLosses from "./components/sports/basketball/RoundOneLossses";
@@ -10,15 +11,15 @@ import SoccerHeader from "./components/sports/soccer/SoccerHeader";
 import SoccerRoundOneLosses from "./components/sports/soccer/soccerRoundOneLosses";
 import SoccerRoundTwoLosses from "./components/sports/soccer/soccerRoundTwoLosses";
 import SoccerRoundThreeLosses from "./components/sports/soccer/soccerRoundThreeLosses";
-import { render } from "react-dom";
 
 function App() {
   return (
     <div>
-     <h2>
+      <h2>
         <SiteHeader />
-      </h2> 
+      </h2>
 
+      {/*Embed for the youtube video*/}
       <iframe
         width="560"
         height="315"
@@ -27,9 +28,11 @@ function App() {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       ></iframe>
 
+      {/*Text Sections with Scores*/}
       <FootballHeader />
       <BaylorGame />
       <MilitaryBowl />
+      <KansasGame />
       <BasketballHeader />
       <RoundOneLosses />
       <RoundTwoLosses />
